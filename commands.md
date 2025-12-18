@@ -32,9 +32,55 @@ Deletes files or directories.
 
 
 
+
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
 \### mv
 
 Moves or renames files.
+
+
+
+\## Examples (Practical Usage)
+
+
+
+\### pwd
+
+```bash
+
+pwd
+
+\# Output: /home/user/Linux-basics
+
+
+
+ls
+
+ls -l
+
+
+
+mkdir test-folder
+
+
+
+
+
+mv oldname.txt newname.txt
+
+
+
+
+
+rm test-folder
+
+
 
 
 
