@@ -58,6 +58,28 @@ pwd
 
 \# Output: /home/user/Linux-basics
 
+## Search & System Monitoring Commands
+
+### grep
+Searches for a word or pattern inside files.
+
+```bash
+grep "error" logfile.txt
+
+find . -name "commands.md"
+
+ps
+ps aux
+
+top
+
+df -h
+
+
+
+
+
+
 
 
 ls
