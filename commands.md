@@ -1,53 +1,31 @@
 \## Basic Linux Commands Explained
 
 
-
 \### pwd
-
 Shows the current working directory.
 
 
-
 \### ls
-
 Lists files and folders in the current directory.
 
 
-
 \### cd
-
 Changes the current directory.
 
 
-
 \### mkdir
-
 Creates a new directory.
 
 
-
 \### rm
-
 Deletes files or directories.
 
 
-
-
-
-
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-
-
 \### mv
-
 Moves or renames files.
-
-
+_________________________________________________________
 
 \## Examples (Practical Usage)
-
 
 
 \### pwd
@@ -58,12 +36,20 @@ pwd
 
 \# Output: /home/user/Linux-basics
 
+mkdir test-folder
+
+mv oldname.txt newname.txt
+
+rm test-folder
+
 ## Search & System Monitoring Commands
 
 ### grep
+
 Searches for a word or pattern inside files.
 
 ```bash
+
 grep "error" logfile.txt
 
 find . -name "commands.md"
@@ -75,32 +61,26 @@ top
 
 df -h
 
-
-
-
-
-
-
-
 ls
 
 ls -l
 
+PROCESS AND SYSTEM HEALTH COMMANDS-:
+#ps
+shows running processes
 
+....bash
+ps
+ps aux
 
-mkdir test-folder
+df -h
+show disk space usage
 
+uptime
+show for  how long the system has been running
 
-
-
-
-mv oldname.txt newname.txt
-
-
-
-
-
-rm test-folder
+top
+show real time system resource usage
 
 
 
