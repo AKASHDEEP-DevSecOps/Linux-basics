@@ -82,6 +82,21 @@ show for  how long the system has been running
 top
 show real time system resource usage
 
+## HTTP, HTTPS and Curl
+#HTTP
+protocol used for communication between client and server
+
+#HTTPS
+secure version of HTTP using encryption(TSL\SSL)
+
+#Curl
+command line tool used to send HTTP requests
+
+''''bash
+curl https:\\example.com
+curl -I https:\example.com
+
+
 
 
 
