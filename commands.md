@@ -96,6 +96,21 @@ command line tool used to send HTTP requests
 curl https:\\example.com
 curl -I https:\example.com
 
+## HTTP Methods and APIs
+
+### HTTP Methods
+- GET: Read data
+- POST: Send or create data
+- PUT/PATCH: Update data
+- DELETE: Remove data
+
+### API
+APIs allow applications to communicate over HTTP.
+
+```bash
+curl https://jsonplaceholder.typicode.com/posts/1
+
+
 
 
 
